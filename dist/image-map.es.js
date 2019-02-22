@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import $ from 'jquery';
+//import $ from 'jquery';
 
 function _classCallCheck(instance, Constructor) {
   if (!(instance instanceof Constructor)) {
@@ -154,11 +154,11 @@ function () {
   return ImageMap;
 }();
 
-if ($ !== undefined && $.fn) {
+/*if ($ !== undefined && $.fn) {
   $.fn.imageMap = function (wait) {
     return new ImageMap(this.toArray(), wait);
   };
-}
+}*/
 
 function _ImageMap(selector, wait) {
   return new ImageMap(selector, wait);
